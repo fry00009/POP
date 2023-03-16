@@ -1,0 +1,92 @@
+.Header {
+  position: absolute;
+  left:0px;
+  top:0px;
+  width:100%;
+  height:250px;
+  background-color:white;
+  text-align: center;
+  font-size:90px;
+}
+
+.DemonSlayer {
+  position: absolute;
+  top:250px;
+  width:100%;
+  left:0px;
+  background-color: teal;
+  text-align: center;
+
+}
+
+.Logo {
+  position: relative;
+  /* margin-top:-60px; */
+  /* margin-bottom:-0px; */
+  text-align: center;
+  top:0px;
+  left:0px;
+  transform: scale(.7);
+}
+
+.grid-container {
+  display: inline-grid;
+  position: relative;
+  grid-template-columns: auto auto auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom:30px;
+  border:5px black solid;
+  width:460px;
+  column-count:1;
+  grid-template-areas:
+  'word'
+  'pic';
+}
+.grid-word {
+  background-color: rgba(255, 255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  height:60px;
+  text-align: center;
+  grid-area: word;
+}
+
+.grid-pic {
+  grid-area: pic;
+  background-color: white;
+}
+
+.MARVEL {
+  position: absolute;
+  top:2943px;
+  width:100%;
+  left:0px;
+  background-color: white;
+  text-align: center;
+}
+
+.MARVELBL {
+  position: absolute;
+  top:5205px;
+  width:100%;
+  left:0px;
+  padding-top:0px;
+  background-color: black;
+  text-align: center;
+}
+
+.BLUP {
+  margin-top:-1020px;
+}
+
+.Avengers {
+  position: absolute;
+  top:1378px;
+  width:100%;
+  left:0px;
+  background-color: grey;
+  text-align: center;
+}
+
+
